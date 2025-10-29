@@ -1,0 +1,39 @@
+name: perusahaan_roti
+description: "Aplikasi mobile untuk penjualan roti dan kue secara online (offline SQLite)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icon bawaan iOS
+  cupertino_icons: ^1.0.8
+
+  # Database lokal
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # Lokasi GPS
+  geolocator: ^13.0.1
+
+  # HTTP (kalau nanti mau konek ke server)
+  http: ^1.2.2
+
+  # State management sederhana
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
